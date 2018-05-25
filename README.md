@@ -19,3 +19,14 @@ In this exercise you'll be creating a simple client/server socket based game to 
 7. You will likely need to use a `List` of `strings` and randomly select elements from the list
 8. `BOSS LEVEL`: Log all of the data that gets sent to your server in a file called `audit.log`.
 9. `SUPER BOSS LEVEL`: Keep a count of the number of requests that get sent to your server and `print` the count after every response.
+
+### Example
+
+
+Is my Bitcoin wallet secure?
+
+> Not likely...
+
+Should I turn on antivirus on my Windows laptop?
+
+> Bruh...
