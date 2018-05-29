@@ -36,7 +36,6 @@ def clientthread(conn):
       break
     
     conn.sendall(reply)
-  
   conn.close()
 
 while True:
