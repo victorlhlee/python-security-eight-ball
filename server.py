@@ -64,7 +64,6 @@ def clientthread(conn):
 
     responses = ['sorry to hear that cuz', 'buy a Mac immediately', 'dats too bad', 'holla big fella!']
    
-
     while True:
         #Receive new messages from the client
         data = conn.recv(1024)
@@ -73,7 +72,6 @@ def clientthread(conn):
             break
         conn.sendall(reply)
     conn.close() #close only this connection
-
 
 def create_server():
     # create a socket object
